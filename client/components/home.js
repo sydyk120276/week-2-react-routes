@@ -18,7 +18,7 @@ const Home = () => {
           <Route exact path="/dashboard/main" component={() => <Main />} />
         </div>
         <div className="bg-indigo-900 text-white font-bold rounded-lg border shadow-lg p-10">
-          <Route exact path="/dashboard/profile/:user" component={() => <Prof />} />
+          <Route exact path="/dashboard/profile/:username" component={() => <Prof />} />
         </div>
       </div>
     </div>
