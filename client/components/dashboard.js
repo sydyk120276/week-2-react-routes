@@ -9,8 +9,8 @@ const Dash = () => {
     <div>
       <Head title="Hello" />
       <div id="title">Dashboard</div>
-      <Link to="/dashboard/profile/75cbfcf2-1b69-46e1-8455-21fe7befbefa">DashboardProfile</Link>
-      <Link to="/dashboard/main">DashboardMain</Link>
+      <Link to="/dashboard/profile/75cbfcf2-1b69-46e1-8455-21fe7befbefa"> Dashboard Profile </Link>
+      <Link to="/dashboard/main"> DashboardMain </Link>
     </div>
   )
 }
