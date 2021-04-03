@@ -9,7 +9,7 @@ const Main = () => {
     <div>
       <Head title="Hello" />
       <div id="title">Main</div>
-      <Link to="/dashboard/profile/61bf9658-a1cc-42f0-8534-5c366aa3fe30">MainProfile</Link>
+      <Link to="/dashboard/profile/75cbfcf2-1b69-46e1-8455-21fe7befbefa">MainProfile</Link>
       <Link to="/dashboard">MainDashboard</Link>
     </div>
   )
