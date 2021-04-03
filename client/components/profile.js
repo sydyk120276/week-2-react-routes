@@ -12,7 +12,7 @@ const Prof = () => {
       <div id="title"> Profile </div>
       <Link to="/dashboard">  Dashboard  </Link>
       <Link to="/dashboard/main">  Main  </Link>
-      <div id="username">{username}</div>
+      <div id="username"> {username} </div>
     </div>
   )
 }

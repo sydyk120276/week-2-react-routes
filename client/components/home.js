@@ -2,7 +2,7 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 
 import Header from './header'
-import Dash from './dashboard'
+import Dash from './dashcomp'
 import Main from './main'
 import Prof from './profile'
 
@@ -18,7 +18,7 @@ const Home = () => {
           <Route exact path="/dashboard/main" component={() => <Main />} />
         </div>
         <div className="bg-indigo-900 text-white font-bold rounded-lg border shadow-lg p-10">
-          <Route exact path="/dashboard/profile/:username" component={() => <Prof />} />
+          <Route exact path="/dashboard/profile/:user" component={() => <Prof />} />
         </div>
       </div>
     </div>
