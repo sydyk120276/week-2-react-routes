@@ -5,14 +5,14 @@ import Head from './head'
 
 
 const Prof = () => {
-  const { username } = useParams()
+  const { user } = useParams()
   return (
     <div>
-      <Head title="Hello" />
+      <Head title="Prof" />
       <div className="flex items-center justify-center h-screen">
         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
           <div id="title"> Profile </div>
-          <div id="username"> {username} </div>
+          <div id="username"> {user} </div>
 
         </div>
         <div className="bg-indigo-700 text-white font-bold rounded-lg border shadow-lg p-10">
