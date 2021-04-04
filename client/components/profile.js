@@ -19,7 +19,7 @@ const Prof = () => {
           <Link to="/dashboard">  Go To Root  </Link>
         </div>
         <div className="bg-indigo-900 text-white font-bold rounded-lg border shadow-lg p-10">
-          <Link to="/dashboard/*">  Go To Main  </Link>
+          <Link to="/dashboard/main">  Go To Main  </Link>
         </div>
       </div>
     </div>
