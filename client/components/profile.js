@@ -9,10 +9,19 @@ const Prof = () => {
   return (
     <div>
       <Head title="Hello" />
-      <div id="title"> Profile </div>
-      <Link to="/dashboard">  Dashboard  </Link>
-      <Link to="/dashboard/main">  Main  </Link>
-      <div id="username"> {username} </div>
+      <div className="flex items-center justify-center h-screen">
+        <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
+          <div id="title"> Profile </div>
+          <div id="username"> {username} </div>
+
+        </div>
+        <div className="bg-indigo-700 text-white font-bold rounded-lg border shadow-lg p-10">
+          <Link to="/dashboard">  Go To Root  </Link>
+        </div>
+        <div className="bg-indigo-900 text-white font-bold rounded-lg border shadow-lg p-10">
+          <Link to="/dashboard/*">  Go To Main  </Link>
+        </div>
+      </div>
     </div>
   )
 }

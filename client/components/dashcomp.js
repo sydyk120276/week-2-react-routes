@@ -8,9 +8,17 @@ const Dash = () => {
   return (
     <div>
       <Head title="Hello" />
-      <div id="title"> Dashboard </div>
-      <Link to="/dashboard/profile/75cbfcf2-1b69-46e1-8455-21fe7befbefa">  Profile  </Link>
-      <Link to="/dashboard/main">  Main  </Link>
+      <div className="flex items-center justify-center h-screen">
+        <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
+          <div id="title"> Dashboard </div>
+        </div>
+        <div className="bg-indigo-700 text-white font-bold rounded-lg border shadow-lg p-10">
+          <Link to="/dashboard/main">  Go To Main  </Link>
+        </div>
+        <div className="bg-indigo-900 text-white font-bold rounded-lg border shadow-lg p-10">
+          <Link to="/dashboard/profile/75cbfcf2-1b69-46e1-8455-21fe7befbefa">  Go To Profile  </Link>
+        </div>
+      </div>
     </div>
   )
 }
