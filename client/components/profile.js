@@ -13,7 +13,6 @@ const Prof = () => {
         <div className="bg-green-800 text-white font-bold rounded-lg border shadow-lg p-10">
           <div id="title"> Profile </div>
           <div id="username"> {user} </div>
-
         </div>
         <div className="bg-indigo-700 text-white font-bold rounded-lg border shadow-lg p-10">
           <Link to="/dashboard">  Go To Root  </Link>
